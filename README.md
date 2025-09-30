@@ -1,5 +1,13 @@
-### Usage Instructions: ETH Flow Visualization
+# Usage Instructions: ETH Flow Visualization
 
+## Setup
+```
+git clone https://github.com/jaeoh91/ETH-Flow-Visualization.git
+cd ETH-Flow-Visualization
+pip install -r requirements.txt
+```
+
+## Usage
 1. Parameters (in the visualization cell):
    - `CSV_PATH`: path to `transactions.csv`.
    - `OFAC_TAGGED`: dictionary of tagged / sanctioned addresses you want highlighted (red).
